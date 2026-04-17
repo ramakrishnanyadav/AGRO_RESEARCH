@@ -9,7 +9,7 @@ import {
   Legend, ResponsiveContainer, BarChart, Bar, Cell
 } from 'recharts';
 
-const API = '';  // uses proxy
+const API = 'https://agro-research.onrender.com';  // uses proxy
 
 const CATEGORY_COLORS = {
   Cereal:    '#22c55e',

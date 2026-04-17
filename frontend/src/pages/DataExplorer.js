@@ -6,7 +6,7 @@
 import React, { useEffect, useState, useCallback } from 'react';
 import axios from 'axios';
 
-const API = '';
+const API = 'https://agro-research.onrender.com';
 
 const SEASONS = ['', 'Kharif', 'Rabi'];
 const YEARS = ['', '2021-22', '2022-23', '2023-24', '2024-25', '2025-26'];

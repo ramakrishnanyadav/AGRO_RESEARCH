@@ -10,7 +10,7 @@ import {
   ErrorBar
 } from 'recharts';
 
-const API = '';
+const API = 'https://agro-research.onrender.com';
 
 const COLORS = ['#22c55e', '#3b82f6', '#f59e0b', '#a855f7', '#ec4899', '#14b8a6'];
 

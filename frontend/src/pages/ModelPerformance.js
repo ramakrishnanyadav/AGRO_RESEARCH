@@ -10,7 +10,7 @@ import {
   LineChart, ReferenceLine
 } from 'recharts';
 
-const API = '';
+const API = 'https://agro-research.onrender.com';
 
 const MetricCard = ({ label, value, unit, sub, color }) => (
   <div className="metric-chip">

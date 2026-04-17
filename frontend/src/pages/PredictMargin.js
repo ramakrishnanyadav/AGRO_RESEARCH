@@ -5,7 +5,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
-const API = '';
+const API = 'https://agro-research.onrender.com';
 
 const CATEGORY_FOR_CROP = {
   'Bajra(Pearl Millet/Cumbu)': 'Cereal',
