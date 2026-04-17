@@ -94,7 +94,13 @@ export default function ShapAnalysis() {
     <div className="page-wrapper"><div className="error-state">⚠️ {error}</div></div>
   );
 
-  const { feature_importance = [], beeswarm = [], top_drivers = [] } = data ?? {};
+  const rawFI   = data?.feature_importance;
+  const rawBees = data?.beeswarm;
+  const rawTD   = data?.top_drivers;
+
+  const feature_importance = Array.isArray(rawFI)   ? rawFI   : [];
+  const beeswarm           = Array.isArray(rawBees) ? rawBees : [];
+  const top_drivers        = Array.isArray(rawTD)   ? rawTD   : [];
 
   if (!feature_importance.length) return (
     <div className="page-wrapper">
@@ -132,8 +138,8 @@ export default function ShapAnalysis() {
       <div className="callout callout-green">
         <div className="callout-title">⭐ Central Finding of This Research</div>
         The two strongest predictors of broker margin are{' '}
-        <strong style={{ color: '#22c55e' }}>{top_drivers[0]?.feature}</strong> and{' '}
-        <strong style={{ color: '#3b82f6' }}>{top_drivers[1]?.feature}</strong>.
+        <strong style={{ color: '#22c55e' }}>{top_drivers[0]?.feature ?? '—'}</strong> and{' '}
+        <strong style={{ color: '#3b82f6' }}>{top_drivers[1]?.feature ?? '—'}</strong>.
         This confirms that <em>what</em> crop is grown (and in which season) dominates over logistics
         costs (diesel price) in explaining price-MSP deviations.
       </div>
