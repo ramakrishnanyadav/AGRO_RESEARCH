@@ -56,8 +56,19 @@ export default function ModelPerformance() {
     <div className="page-wrapper"><div className="error-state">⚠️ {error}</div></div>
   );
 
-  const { metrics, feature_importance, predictions_sample, model_comparison } = data;
+  const {
+    metrics = {},
+    feature_importance = [],
+    predictions_sample = [],
+    model_comparison = []
+  } = data ?? {};
   const m = metrics;
+
+  if (!metrics || Object.keys(metrics).length === 0) return (
+    <div className="page-wrapper">
+      <div className="error-state">⚠️ Model metrics not found. Make sure <code>train.py</code> has been run on the backend.</div>
+    </div>
+  );
 
   // Feature importance chart data
   const fiChartData = (feature_importance || []).map(f => ({

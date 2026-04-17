@@ -94,7 +94,13 @@ export default function ShapAnalysis() {
     <div className="page-wrapper"><div className="error-state">⚠️ {error}</div></div>
   );
 
-  const { feature_importance, beeswarm, top_drivers } = data;
+  const { feature_importance = [], beeswarm = [], top_drivers = [] } = data ?? {};
+
+  if (!feature_importance.length) return (
+    <div className="page-wrapper">
+      <div className="error-state">⚠️ SHAP data not found. Make sure <code>train.py</code> has been run on the backend.</div>
+    </div>
+  );
 
   const fiChart = (feature_importance || []).map((f, i) => ({
     name: f.feature,
