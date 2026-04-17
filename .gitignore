@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+*.venv
+venv/
+env/
+.env
+
+# ML models (large binary files)
+backend/models/*.pkl
+backend/models/*.joblib
+
+# Data (large CSV/Excel files)
+backend/datasets/*.csv
+backend/datasets/*.xlsx
+backend/data/*.csv
+backend/data/*.xlsx
+
+# Node / React
+frontend/node_modules/
+frontend/build/
+frontend/.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp

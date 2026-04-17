@@ -1,0 +1,233 @@
+[
+  {
+    "crop": "Sugarcane",
+    "category": "Cash",
+    "avg_margin": 107.33,
+    "max_margin": 114.91,
+    "min_margin": 92.98,
+    "records": 4,
+    "avg_arrival": 132.12,
+    "avg_price": 590.9,
+    "avg_msp": 285.0
+  },
+  {
+    "crop": "Sesamum(Sesame,Gingelly,Til)",
+    "category": "Oil Seed",
+    "avg_margin": 59.53,
+    "max_margin": 85.78,
+    "min_margin": 43.45,
+    "records": 5,
+    "avg_arrival": 4074.45,
+    "avg_price": 13545.51,
+    "avg_msp": 8577.0
+  },
+  {
+    "crop": "Jute",
+    "category": "Cash",
+    "avg_margin": 43.97,
+    "max_margin": 48.67,
+    "min_margin": 39.96,
+    "records": 3,
+    "avg_arrival": 1.93,
+    "avg_price": 7284.42,
+    "avg_msp": 5050.0
+  },
+  {
+    "crop": "Wheat",
+    "category": "Cereal",
+    "avg_margin": 36.52,
+    "max_margin": 44.23,
+    "min_margin": 21.61,
+    "records": 5,
+    "avg_arrival": 446787.16,
+    "avg_price": 2994.19,
+    "avg_msp": 2185.0
+  },
+  {
+    "crop": "Mustard",
+    "category": "Oil Seed",
+    "avg_margin": 30.54,
+    "max_margin": 66.06,
+    "min_margin": 13.99,
+    "records": 5,
+    "avg_arrival": 3284.1,
+    "avg_price": 6904.45,
+    "avg_msp": 5350.0
+  },
+  {
+    "crop": "Lentil(Masur)(Whole)",
+    "category": "Pulse",
+    "avg_margin": 26.92,
+    "max_margin": 45.21,
+    "min_margin": 15.09,
+    "records": 5,
+    "avg_arrival": 7243.16,
+    "avg_price": 7476.32,
+    "avg_msp": 5945.0
+  },
+  {
+    "crop": "Paddy(Common)",
+    "category": "Cereal",
+    "avg_margin": 18.33,
+    "max_margin": 26.31,
+    "min_margin": 15.17,
+    "records": 5,
+    "avg_arrival": 100707.25,
+    "avg_price": 2563.92,
+    "avg_msp": 2166.4
+  },
+  {
+    "crop": "Cotton",
+    "category": "Cash",
+    "avg_margin": 18.04,
+    "max_margin": 55.29,
+    "min_margin": 0.92,
+    "records": 5,
+    "avg_arrival": 474595.42,
+    "avg_price": 7725.37,
+    "avg_msp": 6651.4
+  },
+  {
+    "crop": "Jowar(Sorghum)",
+    "category": "Cereal",
+    "avg_margin": 14.24,
+    "max_margin": 41.62,
+    "min_margin": -7.66,
+    "records": 5,
+    "avg_arrival": 132372.2,
+    "avg_price": 3685.26,
+    "avg_msp": 3191.6
+  },
+  {
+    "crop": "Bajra(Pearl Millet/Cumbu)",
+    "category": "Cereal",
+    "avg_margin": 12.84,
+    "max_margin": 26.56,
+    "min_margin": -1.07,
+    "records": 5,
+    "avg_arrival": 52798.1,
+    "avg_price": 2837.48,
+    "avg_msp": 2500.0
+  },
+  {
+    "crop": "Arhar(Tur/Red Gram)(Whole)",
+    "category": "Pulse",
+    "avg_margin": 12.67,
+    "max_margin": 41.0,
+    "min_margin": -2.21,
+    "records": 5,
+    "avg_arrival": 334713.46,
+    "avg_price": 7971.87,
+    "avg_msp": 7090.0
+  },
+  {
+    "crop": "Soyabean",
+    "category": "Oil Seed",
+    "avg_margin": 10.92,
+    "max_margin": 51.93,
+    "min_margin": -16.74,
+    "records": 5,
+    "avg_arrival": 1230216.86,
+    "avg_price": 5036.01,
+    "avg_msp": 4614.0
+  },
+  {
+    "crop": "Ragi(Finger Millet)",
+    "category": "Cereal",
+    "avg_margin": 9.3,
+    "max_margin": 16.79,
+    "min_margin": 1.42,
+    "records": 5,
+    "avg_arrival": 47.28,
+    "avg_price": 4384.38,
+    "avg_msp": 3995.4
+  },
+  {
+    "crop": "Black Gram(Urd Beans)(Whole)",
+    "category": "Pulse",
+    "avg_margin": 6.5,
+    "max_margin": 25.12,
+    "min_margin": -3.98,
+    "records": 5,
+    "avg_arrival": 51056.84,
+    "avg_price": 7494.55,
+    "avg_msp": 7010.0
+  },
+  {
+    "crop": "Maize",
+    "category": "Cereal",
+    "avg_margin": 2.82,
+    "max_margin": 26.28,
+    "min_margin": -8.2,
+    "records": 5,
+    "avg_arrival": 476021.4,
+    "avg_price": 2187.24,
+    "avg_msp": 2109.4
+  },
+  {
+    "crop": "Green Gram(Moong)(Whole)",
+    "category": "Pulse",
+    "avg_margin": 0.81,
+    "max_margin": 12.81,
+    "min_margin": -8.75,
+    "records": 5,
+    "avg_arrival": 36723.89,
+    "avg_price": 8313.88,
+    "avg_msp": 8207.6
+  },
+  {
+    "crop": "Bengal Gram(Gram)(Whole)",
+    "category": "Pulse",
+    "avg_margin": 0.42,
+    "max_margin": 13.46,
+    "min_margin": -11.5,
+    "records": 5,
+    "avg_arrival": 480088.03,
+    "avg_price": 5387.88,
+    "avg_msp": 5351.0
+  },
+  {
+    "crop": "Groundnut",
+    "category": "Oil Seed",
+    "avg_margin": -2.6,
+    "max_margin": 12.76,
+    "min_margin": -23.6,
+    "records": 5,
+    "avg_arrival": 16941.07,
+    "avg_price": 6194.75,
+    "avg_msp": 6364.6
+  },
+  {
+    "crop": "Safflower",
+    "category": "Oil Seed",
+    "avg_margin": -10.3,
+    "max_margin": 15.32,
+    "min_margin": -28.97,
+    "records": 5,
+    "avg_arrival": 2379.95,
+    "avg_price": 5059.09,
+    "avg_msp": 5631.6
+  },
+  {
+    "crop": "Sunflower",
+    "category": "Oil Seed",
+    "avg_margin": -15.44,
+    "max_margin": 10.84,
+    "min_margin": -35.3,
+    "records": 5,
+    "avg_arrival": 6736.38,
+    "avg_price": 5592.8,
+    "avg_msp": 6637.8
+  },
+  {
+    "crop": "Niger Seed(Ramtil)",
+    "category": "Oil Seed",
+    "avg_margin": -39.33,
+    "max_margin": 10.72,
+    "min_margin": -69.7,
+    "records": 3,
+    "avg_arrival": 5.3,
+    "avg_price": 4550.26,
+    "avg_msp": 7317.0
+  }
+]

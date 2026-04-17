@@ -1,0 +1,89 @@
+{
+  "crop": {
+    "Arhar(Tur/Red Gram)(Whole)": 0,
+    "Bajra(Pearl Millet/Cumbu)": 1,
+    "Bengal Gram(Gram)(Whole)": 2,
+    "Black Gram(Urd Beans)(Whole)": 3,
+    "Cotton": 4,
+    "Green Gram(Moong)(Whole)": 5,
+    "Groundnut": 6,
+    "Jowar(Sorghum)": 7,
+    "Jute": 8,
+    "Lentil(Masur)(Whole)": 9,
+    "Maize": 10,
+    "Mustard": 11,
+    "Niger Seed(Ramtil)": 12,
+    "Paddy(Common)": 13,
+    "Ragi(Finger Millet)": 14,
+    "Safflower": 15,
+    "Sesamum(Sesame,Gingelly,Til)": 16,
+    "Soyabean": 17,
+    "Sugarcane": 18,
+    "Sunflower": 19,
+    "Wheat": 20
+  },
+  "category": {
+    "Cash": 0,
+    "Cereal": 1,
+    "Oil Seed": 2,
+    "Pulse": 3
+  },
+  "season": {
+    "Kharif": 0,
+    "Rabi": 1
+  },
+  "crop_classes": [
+    "Arhar(Tur/Red Gram)(Whole)",
+    "Bajra(Pearl Millet/Cumbu)",
+    "Bengal Gram(Gram)(Whole)",
+    "Black Gram(Urd Beans)(Whole)",
+    "Cotton",
+    "Green Gram(Moong)(Whole)",
+    "Groundnut",
+    "Jowar(Sorghum)",
+    "Jute",
+    "Lentil(Masur)(Whole)",
+    "Maize",
+    "Mustard",
+    "Niger Seed(Ramtil)",
+    "Paddy(Common)",
+    "Ragi(Finger Millet)",
+    "Safflower",
+    "Sesamum(Sesame,Gingelly,Til)",
+    "Soyabean",
+    "Sugarcane",
+    "Sunflower",
+    "Wheat"
+  ],
+  "category_classes": [
+    "Cash",
+    "Cereal",
+    "Oil Seed",
+    "Pulse"
+  ],
+  "season_classes": [
+    "Kharif",
+    "Rabi"
+  ],
+  "scaler_min": [
+    0.1,
+    86.72,
+    285.0
+  ],
+  "scaler_max": [
+    1712296.76,
+    103.54,
+    9846.0
+  ],
+  "feature_cols": [
+    "crop_enc",
+    "category_enc",
+    "season_enc",
+    "year_int",
+    "arrival_volume_scaled",
+    "diesel_price_scaled",
+    "msp_scaled",
+    "low_supply_flag"
+  ],
+  "arrival_median": 27739.835
+}

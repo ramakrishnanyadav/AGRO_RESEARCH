@@ -1,0 +1,115 @@
+{
+  "crops": [
+    "Arhar(Tur/Red Gram)(Whole)",
+    "Bajra(Pearl Millet/Cumbu)",
+    "Bengal Gram(Gram)(Whole)",
+    "Black Gram(Urd Beans)(Whole)",
+    "Cotton",
+    "Green Gram(Moong)(Whole)",
+    "Groundnut",
+    "Jowar(Sorghum)",
+    "Jute",
+    "Lentil(Masur)(Whole)",
+    "Maize",
+    "Mustard",
+    "Niger Seed(Ramtil)",
+    "Paddy(Common)",
+    "Ragi(Finger Millet)",
+    "Safflower",
+    "Sesamum(Sesame,Gingelly,Til)",
+    "Soyabean",
+    "Sugarcane",
+    "Sunflower",
+    "Wheat"
+  ],
+  "seasons": [
+    "Kharif",
+    "Rabi"
+  ],
+  "values": [
+    [
+      12.67,
+      0.0
+    ],
+    [
+      12.84,
+      0.0
+    ],
+    [
+      0.0,
+      0.42
+    ],
+    [
+      0.0,
+      6.5
+    ],
+    [
+      18.04,
+      0.0
+    ],
+    [
+      0.0,
+      0.81
+    ],
+    [
+      -2.6,
+      0.0
+    ],
+    [
+      14.24,
+      0.0
+    ],
+    [
+      0.0,
+      43.97
+    ],
+    [
+      0.0,
+      26.92
+    ],
+    [
+      2.82,
+      0.0
+    ],
+    [
+      0.0,
+      30.54
+    ],
+    [
+      -39.33,
+      0.0
+    ],
+    [
+      18.33,
+      0.0
+    ],
+    [
+      9.3,
+      0.0
+    ],
+    [
+      0.0,
+      -10.3
+    ],
+    [
+      59.53,
+      0.0
+    ],
+    [
+      10.92,
+      0.0
+    ],
+    [
+      107.33,
+      0.0
+    ],
+    [
+      -15.44,
+      0.0
+    ],
+    [
+      0.0,
+      36.52
+    ]
+  ]
+}

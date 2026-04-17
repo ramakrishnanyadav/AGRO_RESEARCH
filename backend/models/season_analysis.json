@@ -1,0 +1,66 @@
+[
+  {
+    "season": "Kharif",
+    "category": "Cash",
+    "avg_margin": 57.72,
+    "avg_price": 4554.49,
+    "avg_msp": 3821.89,
+    "records": 9
+  },
+  {
+    "season": "Kharif",
+    "category": "Cereal",
+    "avg_margin": 11.51,
+    "avg_price": 3131.66,
+    "avg_msp": 2792.56,
+    "records": 25
+  },
+  {
+    "season": "Kharif",
+    "category": "Oil Seed",
+    "avg_margin": 6.26,
+    "avg_price": 7195.49,
+    "avg_msp": 6648.61,
+    "records": 23
+  },
+  {
+    "season": "Kharif",
+    "category": "Pulse",
+    "avg_margin": 12.67,
+    "avg_price": 7971.87,
+    "avg_msp": 7090.0,
+    "records": 5
+  },
+  {
+    "season": "Rabi",
+    "category": "Cash",
+    "avg_margin": 43.97,
+    "avg_price": 7284.42,
+    "avg_msp": 5050.0,
+    "records": 3
+  },
+  {
+    "season": "Rabi",
+    "category": "Cereal",
+    "avg_margin": 36.52,
+    "avg_price": 2994.19,
+    "avg_msp": 2185.0,
+    "records": 5
+  },
+  {
+    "season": "Rabi",
+    "category": "Oil Seed",
+    "avg_margin": 10.12,
+    "avg_price": 5981.77,
+    "avg_msp": 5490.8,
+    "records": 10
+  },
+  {
+    "season": "Rabi",
+    "category": "Pulse",
+    "avg_margin": 8.66,
+    "avg_price": 7168.16,
+    "avg_msp": 6628.4,
+    "records": 20
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "year": "2021-22",
+    "category": "Cash",
+    "avg_margin": 85.1,
+    "avg_msp": 3005.5,
+    "avg_price": 4752.1
+  },
+  {
+    "year": "2021-22",
+    "category": "Cereal",
+    "avg_margin": 3.55,
+    "avg_msp": 2358.33,
+    "avg_price": 2422.09
+  },
+  {
+    "year": "2021-22",
+    "category": "Oil Seed",
+    "avg_margin": 18.37,
+    "avg_msp": 5586.0,
+    "avg_price": 6449.05
+  },
+  {
+    "year": "2021-22",
+    "category": "Pulse",
+    "avg_margin": 4.55,
+    "avg_msp": 6015.0,
+    "avg_price": 6194.2
+  },
+  {
+    "year": "2022-23",
+    "category": "Cash",
+    "avg_margin": 68.49,
+    "avg_msp": 3182.5,
+    "avg_price": 4144.2
+  },
+  {
+    "year": "2022-23",
+    "category": "Cereal",
+    "avg_margin": 14.82,
+    "avg_msp": 2504.17,
+    "avg_price": 2870.19
+  },
+  {
+    "year": "2022-23",
+    "category": "Oil Seed",
+    "avg_margin": 6.82,
+    "avg_msp": 6022.57,
+    "avg_price": 6447.27
+  },
+  {
+    "year": "2022-23",
+    "category": "Pulse",
+    "avg_margin": 7.1,
+    "avg_msp": 6337.0,
+    "avg_price": 6737.92
+  },
+  {
+    "year": "2023-24",
+    "category": "Cash",
+    "avg_margin": 52.89,
+    "avg_msp": 3885.0,
+    "avg_price": 4774.95
+  },
+  {
+    "year": "2023-24",
+    "category": "Cereal",
+    "avg_margin": 16.34,
+    "avg_msp": 2654.0,
+    "avg_price": 3056.99
+  },
+  {
+    "year": "2023-24",
+    "category": "Oil Seed",
+    "avg_margin": 0.2,
+    "avg_msp": 6406.57,
+    "avg_price": 6613.58
+  },
+  {
+    "year": "2023-24",
+    "category": "Pulse",
+    "avg_margin": 19.51,
+    "avg_msp": 6768.6,
+    "avg_price": 8136.18
+  },
+  {
+    "year": "2024-25",
+    "category": "Cash",
+    "avg_margin": 44.62,
+    "avg_msp": 4052.0,
+    "avg_price": 4794.86
+  },
+  {
+    "year": "2024-25",
+    "category": "Cereal",
+    "avg_margin": 16.41,
+    "avg_msp": 2847.67,
+    "avg_price": 3300.63
+  },
+  {
+    "year": "2024-25",
+    "category": "Oil Seed",
+    "avg_margin": -6.23,
+    "avg_msp": 6612.0,
+    "avg_price": 6407.22
+  },
+  {
+    "year": "2024-25",
+    "category": "Pulse",
+    "avg_margin": 4.96,
+    "avg_msp": 7099.4,
+    "avg_price": 7369.17
+  },
+  {
+    "year": "2025-26",
+    "category": "Cash",
+    "avg_margin": 25.84,
+    "avg_msp": 6680.0,
+    "avg_price": 8170.82
+  },
+  {
+    "year": "2025-26",
+    "category": "Cereal",
+    "avg_margin": 27.25,
+    "avg_msp": 3092.33,
+    "avg_price": 3893.82
+  },
+  {
+    "year": "2025-26",
+    "category": "Oil Seed",
+    "avg_margin": 17.48,
+    "avg_msp": 7008.0,
+    "avg_price": 8383.55
+  },
+  {
+    "year": "2025-26",
+    "category": "Pulse",
+    "avg_margin": 11.19,
+    "avg_msp": 7383.6,
+    "avg_price": 8207.03
+  }
+]

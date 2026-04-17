@@ -1,0 +1,61 @@
+{
+  "r2_train": 1.0,
+  "r2_test": 0.9238,
+  "mae_train": 0.28,
+  "mae_test": 515.81,
+  "rmse_test": 744.55,
+  "cv_r2_mean": 0.8017,
+  "cv_r2_std": 0.1134,
+  "train_samples": 80,
+  "test_samples": 20,
+  "total_samples": 100,
+  "target": "market_price",
+  "model_params": {
+    "algorithm": "XGBoost Regressor (Direct Price Predictor)",
+    "n_estimators": 1000,
+    "learning_rate": 0.05,
+    "max_depth": 8,
+    "subsample": 0.8,
+    "train_split": "80%",
+    "test_split": "20%"
+  },
+  "feature_importance": {
+    "Crop name": 0.1487,
+    "Crop category": 0.3088,
+    "Season": 0.0493,
+    "Year": 0.024,
+    "Arrival volume": 0.0354,
+    "Diesel price": 0.023,
+    "MSP": 0.3229,
+    "Supply shock": 0.088
+  },
+  "model_comparison": [
+    {
+      "name": "XGBoost",
+      "r2_train": 1.0,
+      "r2_test": 0.9238,
+      "mae_test": 515.81,
+      "rmse": 744.55,
+      "cv_r2": 0.8017,
+      "cv_std": 0.1134
+    },
+    {
+      "name": "Random Forest",
+      "r2_train": 0.9666,
+      "r2_test": 0.8133,
+      "mae_test": 615.1,
+      "rmse": 1164.93,
+      "cv_r2": 0.752,
+      "cv_std": 0.126
+    },
+    {
+      "name": "Linear Regression",
+      "r2_train": 0.7488,
+      "r2_test": 0.6257,
+      "mae_test": 1036.93,
+      "rmse": 1649.73,
+      "cv_r2": 0.7026,
+      "cv_std": 0.1279
+    }
+  ]
+}

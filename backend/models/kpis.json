@@ -1,0 +1,22 @@
+{
+  "total_records": 100,
+  "total_crops": 21,
+  "years_covered": [
+    "2021-22",
+    "2022-23",
+    "2023-24",
+    "2024-25",
+    "2025-26"
+  ],
+  "avg_price_deviation": 16.03,
+  "max_price_deviation": 114.91,
+  "min_price_deviation": -69.7,
+  "pct_above_msp": 73.0,
+  "highest_margin_crop": "Sugarcane",
+  "lowest_margin_crop": "Niger Seed(Ramtil)",
+  "top_driver_1": "MSP",
+  "top_driver_2": "Crop name",
+  "avg_broker_margin": 16.03,
+  "max_broker_margin": 114.91,
+  "min_broker_margin": -69.7
+}

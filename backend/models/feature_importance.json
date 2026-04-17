@@ -1,0 +1,42 @@
+[
+  {
+    "feature": "MSP",
+    "importance": 1.092,
+    "std": 0.1034
+  },
+  {
+    "feature": "Crop name",
+    "importance": 0.1376,
+    "std": 0.0199
+  },
+  {
+    "feature": "Arrival volume",
+    "importance": 0.0775,
+    "std": 0.0108
+  },
+  {
+    "feature": "Crop category",
+    "importance": 0.047,
+    "std": 0.0078
+  },
+  {
+    "feature": "Year trend",
+    "importance": 0.0104,
+    "std": 0.0019
+  },
+  {
+    "feature": "Season",
+    "importance": 0.0028,
+    "std": 0.0013
+  },
+  {
+    "feature": "Diesel price",
+    "importance": 0.0017,
+    "std": 0.0007
+  },
+  {
+    "feature": "Low supply",
+    "importance": 0.0012,
+    "std": 0.0007
+  }
+]

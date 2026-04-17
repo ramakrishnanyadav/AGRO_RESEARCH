@@ -1,0 +1,12 @@
+# AGRO_RESEARCH Backend Requirements
+# Install with: pip install -r requirements.txt
+
+flask==3.0.0
+flask-cors==4.0.0
+pandas==2.2.0
+numpy==1.26.4
+scikit-learn==1.4.0
+openpyxl==3.1.2
+xgboost==2.0.3
+shap==0.44.1
+optuna==3.5.0
