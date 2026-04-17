@@ -59,11 +59,18 @@ export default function Overview() {
     </div>
   );
 
-  const { kpis, year_trend, category_breakdown } = data;
+  const { kpis, year_trend = [], category_breakdown = [] } = data ?? {};
+
+  // Guard: if kpis is missing, show a friendly error
+  if (!kpis) return (
+    <div className="page-wrapper">
+      <div className="error-state">⚠️ API returned incomplete data. Make sure <code>train.py</code> has been run.</div>
+    </div>
+  );
 
   // Pivot year_trend into chart-friendly format: [{year, Cereal, Oil Seed, Pulse, Cash}]
-  const years = [...new Set(year_trend.map(r => r.year))].sort();
-  const categories = [...new Set(year_trend.map(r => r.category))];
+  const years = [...new Set((year_trend ?? []).map(r => r.year))].sort();
+  const categories = [...new Set((year_trend ?? []).map(r => r.category))];
   const trendChartData = years.map(yr => {
     const row = { year: yr };
     categories.forEach(cat => {
